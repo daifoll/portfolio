@@ -1,0 +1,353 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+.container{max-width:1940px;margin:0 auto;padding-left:20px;padding-right:20px;padding-top:20px}@media screen and (max-width: 1200px){.container{max-width:1140px}}@media screen and (max-width: 992px){.container{max-width:960px}}@media screen and (max-width: 768px){.container{max-width:720px}}@media screen and (max-width: 576px){.container{max-width:540px}}.header{position:relative;max-width:100%;height:100vh;background:#f1f1f1;color:#000;text-transform:uppercase;overflow:hidden;font-family:"Oswald",sans-serif;font-weight:700}.header__top{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.header__top .left-header{-ms-flex-preferred-size:85%;flex-basis:85%}.header__top .left-header__name{font-size:175px}@media screen and (max-width: 1120px){.header__top .left-header__name{font-size:150px}}@media screen and (max-width: 1024px){.header__top .left-header__name{font-size:130px}}@media screen and (max-width: 768px){.header__top .left-header__name{font-size:100px}}@media screen and (max-width: 576px){.header__top .left-header__name{font-size:70px}}@media screen and (max-width: 450px){.header__top .left-header__name{font-size:60px}}@media screen and (max-width: 380px){.header__top .left-header__name{font-size:50px}}.header__top .left-header__description{font-size:175px}@media screen and (max-width: 1120px){.header__top .left-header__description{font-size:150px}}@media screen and (max-width: 1024px){.header__top .left-header__description{font-size:130px}}@media screen and (max-width: 768px){.header__top .left-header__description{font-size:100px}}@media screen and (max-width: 576px){.header__top .left-header__description{font-size:70px}}@media screen and (max-width: 450px){.header__top .left-header__description{font-size:60px}}@media screen and (max-width: 380px){.header__top .left-header__description{font-size:50px}}.header__top .left-header__contacts{margin-top:60px;display:-webkit-box;display:-ms-flexbox;display:flex;max-width:100%;font-size:40px;-ms-flex-line-pack:justify;align-content:space-between}@media screen and (max-width: 1200px){.header__top .left-header__contacts{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}}@media screen and (max-width: 1120px){.header__top .left-header__contacts{font-size:35px}}@media screen and (max-width: 992px){.header__top .left-header__contacts{font-size:25px}}@media screen and (max-width: 768px){.header__top .left-header__contacts{font-size:20px}}@media screen and (max-width: 576px){.header__top .left-header__contacts{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;font-size:20px}}.header__top .left-header .contacts .item-contacts:not(:first-child){margin-left:20px}@media screen and (max-width: 1200px){.header__top .left-header .contacts .item-contacts:not(:first-child){margin-left:0}}.header__top .left-header .contacts .item-contacts__text{margin-left:10px}.header__top .left-header .contacts .item-contacts__icon{width:50px}.header__top .right-header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-preferred-size:15%;flex-basis:15%}@media screen and (max-width: 992px){.header__top .right-header{-ms-flex-preferred-size:30%;flex-basis:30%}}.header__top .right-header .switches-header{margin-top:30px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}@media screen and (max-width: 992px){.header__top .right-header .switches-header{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-webkit-box-align:center;-ms-flex-align:center;align-items:center}}.header__top .right-header .switches-header__text{font-size:20px;font-family:"Oswald",sans-serif;font-weight:200;margin-bottom:5px}@media screen and (max-width: 992px){.header__top .right-header .switches-header__text{display:none}}.header__top .right-header .switches-header__switch{position:relative;display:inline-block;width:60px;height:34px}@media screen and (max-width: 992px){.header__top .right-header .switches-header__switch{width:120px;height:68px}}@media screen and (max-width: 576px){.header__top .right-header .switches-header__switch{width:80px;height:45px}}.header__top .right-header .switches-header__switch:not(:last-child){margin-bottom:30px}@media screen and (max-width: 992px){.header__top .right-header .switches-header .language{background:url(assets/images/header/right-header/language.5ee344d7bcb340266f9a.svg) no-repeat center;background-size:55% auto;cursor:pointer}}.header__top .right-header .switches-header .language__input{display:none}.header__top .right-header .switches-header .language__input:checked+.language__slider{background-color:#000}.header__top .right-header .switches-header .language__input:checked+.language__slider:before{-webkit-transform:translateX(26px);transform:translateX(26px)}.header__top .right-header .switches-header .language__slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:#ccc;-webkit-transition:.4s;transition:.4s;border-radius:10%}.header__top .right-header .switches-header .language__slider:before{position:absolute;content:"";height:26px;width:26px;left:4px;bottom:4px;background-color:#fff;-webkit-transition:.4s;transition:.4s}@media screen and (max-width: 992px){.header__top .right-header .switches-header .language__slider{display:none}}.header__top .bottom-header{position:absolute;bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);width:100%;padding:10px 0 40px 0;background-color:#000;color:#fff;text-align:center;cursor:pointer;font-family:"Oswald",sans-serif;font-weight:700;font-size:30px}.header__top .bottom-header__btn{text-decoration:none;background:transparent;border:0;color:#fff;text-transform:uppercase;cursor:pointer}.header__top .bottom-header__btn:after{content:"";position:absolute;top:5px;left:50%;-webkit-transform:translateX(-50px);transform:translateX(-50px);background:url(assets/images/header/bottom-header/projects-button.936e94327caa0fe50ee4.svg) no-repeat;width:100px;height:100px;overflow:hidden}.header__top .bottom-header .projects-button-aimation:after{-webkit-animation-name:projects-fall;animation-name:projects-fall;-webkit-animation-duration:.7s;animation-duration:.7s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-direction:alternate;animation-direction:alternate}@-webkit-keyframes projects-fall{from{top:5px}to{top:15px}}@keyframes projects-fall{from{top:5px}to{top:15px}}.header .anchors-navigation{position:fixed;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);right:3%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;font-size:50px;z-index:9999}@media screen and (max-width: 560px){.header .anchors-navigation{right:5%}}@media screen and (max-width: 380px){.header .anchors-navigation{right:8%}}.header .anchors-navigation__item{text-decoration:none;position:relative}.header .anchors-navigation__item:not(:first-child){margin-top:50px}.header .anchors-navigation__item::after{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%);content:"";width:30px;height:30px;border:2px solid #a83246;border-radius:50%;-webkit-box-shadow:1px 1px 13px 1px rgba(34,60,80,.45);box-shadow:1px 1px 13px 1px rgba(34,60,80,.45);-webkit-transition:all .3s;transition:all .3s}.header .anchors-navigation__item:hover::after{background:#64ff64}.projects{position:relative;max-width:100%}.projects__column{max-width:100%;background-color:#f1f1f1}.projects__column:nth-child(2n+2){background-color:#000;color:#fff}.projects__column:nth-child(2n+2) ::-moz-selection{background:#f1f1f1;color:#000}.projects__column:nth-child(2n+2) ::selection{background:#f1f1f1;color:#000}.projects-item{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-wrap:wrap;flex-wrap:wrap;padding:40px 0;height:100vh}@media screen and (max-width: 992px){.projects-item{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;height:auto}}.projects-item .projects-image{-ms-flex-preferred-size:50%;flex-basis:50%;height:400px;position:relative}@media screen and (max-width: 992px){.projects-item .projects-image{width:100%;height:300px}}.projects-item .projects-image__img{width:100%;height:inherit;-o-object-fit:cover;object-fit:cover;-o-object-position:top;object-position:top}.projects-item .projects-info{-ms-flex-preferred-size:50%;flex-basis:50%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-ms-flex-line-pack:center;align-content:center;padding-left:40px}@media screen and (max-width: 992px){.projects-item .projects-info{margin-top:40px}}@media screen and (max-width: 992px){.projects-item .projects-info{padding-left:0;padding:20px}}.projects-item .projects-info .projects-header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.projects-item .projects-info .projects-header__item{text-transform:uppercase;font-family:"Oswald",sans-serif;font-weight:700;font-size:50px}@media screen and (max-width: 450px){.projects-item .projects-info .projects-header__item{font-size:38.4615384615px}}.projects-item .projects-info .projects-description{margin-top:20px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.projects-item .projects-info .projects-description__item{font-size:40px}.projects-item .projects-info .projects-description__item:not(:first-child){margin-top:30px}.projects-item .projects-info .projects-description__list{font-family:"Oswald",sans-serif;font-weight:200;font-size:30px;list-style:none;margin-top:10px}.projects-item .projects-info .projects-description__list>li.projects-description-list__item:before{content:"—";position:relative;left:-5px}.projects-item .projects-info .projects-button{margin-top:30px}@media screen and (max-width: 992px){.projects-item .projects-info .projects-button{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}}.projects-item .projects-info .projects-button__watchBtn{font-size:25px;font-family:"Oswald",sans-serif;font-weight:700;text-transform:uppercase;padding:10px}.footer{max-width:100%;background:#000;color:#fff;height:100vh;font-size:25px;line-height:1.5;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}@media screen and (max-width: 912px){.footer{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}}@media screen and (max-height: 600px){.footer{height:100vh;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}}.footer ::-moz-selection{background:#f1f1f1;color:#000}.footer ::selection{background:#f1f1f1;color:#000}.footer-container{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding:20px}@media screen and (max-width: 414px){.footer-container{height:inherit}}.footer__wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-preferred-size:100%;flex-basis:100%}@media screen and (max-width: 1500px){.footer__wrapper{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}}@media screen and (max-height: 600px){.footer__wrapper{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row}}@media screen and (max-width: 1500px){.footer__column:not(:first-child){margin-top:40px}}@media screen and (max-height: 600px){.footer__column:not(:first-child){margin-top:0}.footer__column:last-child{margin-top:50px}}.footer-header{-ms-flex-preferred-size:40%;flex-basis:40%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;text-transform:uppercase;font-size:100px}@media screen and (max-width: 833px){.footer-header{font-size:76.9230769231px}}@media screen and (max-width: 540px){.footer-header{font-size:58.8235294118px}}@media screen and (max-width: 460px){.footer-header{font-size:40px}}@media screen and (max-height: 600px){.footer-header{font-size:50px}}.footer-projects{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-ms-flex-preferred-size:10%;flex-basis:10%;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;font-size:40px}@media screen and (max-width: 1500px){.footer-projects{font-size:30.7692307692px}}@media screen and (max-height: 600px){.footer-projects{margin-left:60px}}.footer-contacts{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-preferred-size:50%;flex-basis:50%;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-transform:uppercase;font-size:40px}@media screen and (max-width: 1500px){.footer-contacts{font-size:30.7692307692px;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}}@media screen and (max-width: 700px){.footer-contacts{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}}@media screen and (max-height: 600px){.footer-contacts{margin-left:60px}}.footer-contacts__wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.footer-contacts :nth-child(1n+2){margin-top:20px}@media screen and (max-width: 1500px){.footer-contacts :nth-child(1n+2){margin-top:0}}.footer-date{-ms-flex-preferred-size:100%;flex-basis:100%;text-align:center;margin-top:200px;font-size:100px}@media screen and (max-width: 1500px){.footer-date{margin-top:100px;font-size:50px}}@media screen and (max-width: 540px){.footer-date{font-size:40px}}@media screen and (max-height: 820px){.footer-date{margin-top:100px}}@media screen and (max-height: 600px){.footer-date{font-size:40px}}*,*::before,*::after,h1,h2,h3,h4,h5,h6{-webkit-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0}a{text-decoration:none}a:link{color:inherit}a:active{color:inherit}a:visited{color:inherit}a:hover{text-decoration:underline}body{font-family:"Oswald",sans-serif;font-weight:300;font-size:16px;margin:0;padding:0;position:relative}::-moz-selection{color:#fff;background:#000}::selection{color:#fff;background:#000}
+
+/*# sourceMappingURL=main.528358be009b48789118.css.map*/
